@@ -1,0 +1,114 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video ,button,input{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+    outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul ,li{
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*{margin:0;padding: 0;font-family:"Microsoft YaHei","Comic Sans MS","幼圆","黑体",sans-serif;}
+body{}
+.view {position: absolute;top: 4rem;left: 0;z-index: 99;display: none;}
+.out {transition: transform 400ms;transform: translate3d(-100%,0,0);}
+.out-right{transition: transform 400ms;transform: translate3d(100%,0,0);}
+.in{transition: transform 400ms;transform: translate3d(0,0,0);}
+.current {z-index: 100;display: block;}
+.block{display: block;}
+.none{display: none;}
+.red{background: #fff;}
+.blue{background: #fff;}
+.view ul li{overflow: hidden;margin: 0 1rem 1rem;}
+.detail{margin-left: 8rem;font-size: 1rem;}
+.detail h1{margin-bottom: .5rem;}
+.detail p{line-height: 1.5rem;}
+.view ul img{float: left;width: 6rem;/*-webkit-filter:blur(2px);*/}
+nav ul li{float: left;width: 50%;text-align: center;height: 3rem;line-height: 3rem;}
+.border-oringe{border-bottom: 2px solid #F1A93E;}
