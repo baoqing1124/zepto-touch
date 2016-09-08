@@ -1,2 +1,3 @@
 # zepto-touch
 通过使用zepto的各种touch事件及css3动画实现的tab滑动切换
+ajax读取本地文件存在跨域问题，请在本地搭测试环境或chrome配置参数查看
